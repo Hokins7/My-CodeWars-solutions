@@ -1,24 +1,22 @@
-# Volume of a Cuboid
+# You Can't Code Under Pressure #1
 
 ## Description
 
-This JavaScript code defines a class named `Kata` with a static method, `getVolumeOfCuboid`, that calculates the volume of a cuboid (rectangular box) using its length, width, and height.
+This JavaScript code defines a function called `doubleInteger` that doubles an integer by multiplying it by 2.
 
 ### How It Works
 
-- The `Kata` class contains a static method, `getVolumeOfCuboid`, which takes three parameters: `length`, `width`, and `height`.
+- The function takes a single parameter, `i`, which is the integer to be doubled.
 
-- The method calculates the volume of the cuboid by multiplying these three parameters together.
+- It doubles the integer by multiplying it by 2.
 
-- It returns the calculated volume as a number.
+- The function returns the doubled integer as the result.
 
 ## Usage
 
-To use the `getVolumeOfCuboid` method, provide the length, width, and height of the cuboid as parameters, and it will return the volume of the cuboid.
+To use the `doubleInteger` function, provide an integer as its parameter, and it will return the integer doubled.
 
 ```javascript
-const cuboidLength = 5;
-const cuboidWidth = 3;
-const cuboidHeight = 2;
-const volume = Kata.getVolumeOfCuboid(cuboidLength, cuboidWidth, cuboidHeight);
-console.log(volume); // This will log '30' to the console.
+const originalInteger = 5;
+const doubledInteger = doubleInteger(originalInteger);
+console.log(doubledInteger); // This will log '10' to the console.
