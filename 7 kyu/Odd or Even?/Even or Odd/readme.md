@@ -1,22 +1,24 @@
-# Even or Odd Function
+# Odd or Even? Function
 
 ## Description
 
-This JavaScript code defines a function called `even_or_odd` that determines if a given number is even or odd.
+This JavaScript code defines a function called `oddOrEven` that determines whether the sum of a list of integers is even or odd.
 
 ### How It Works
 
-- The function takes a single parameter, `number`, which is the number to be checked.
+- The function takes an array of integers as its parameter.
 
-- It checks if the number is even using the modulo operator `%`. If `number % 2` equals 0, it means the number is even.
+- It uses the `reduce()` method to calculate the sum of the integers in the array. The initial sum is set to 0.
 
-- The function returns 'Even' if the number is even, and 'Odd' if it's odd.
+- It checks if the sum is even using the modulo operator `%`. If `sum % 2` equals 0, it means the sum is even. Otherwise, it's considered odd.
+
+- The function returns 'even' if the sum is even and 'odd' if it's odd.
 
 ## Usage
 
-To use the `even_or_odd` function, provide a number as its parameter, and it will return 'Even' if the number is even, or 'Odd' if it's odd.
+To use the `oddOrEven` function, provide an array of integers as its parameter, and it will return 'even' if the sum is even or 'odd' if the sum is odd.
 
 ```javascript
-const testNumber = 7;
-const result = even_or_odd(testNumber);
-console.log(result); // This will log 'Odd' to the console because 7 is an odd number.
+const numberList = [1, 2, 3, 4, 5];
+const result = oddOrEven(numberList);
+console.log(result); // This will log 'odd' to the console because the sum is 15, which is an odd number.
