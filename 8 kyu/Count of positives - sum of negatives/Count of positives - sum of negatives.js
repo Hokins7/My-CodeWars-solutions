@@ -1,0 +1,18 @@
+/**
+ * Calculate the count of positive numbers and the sum of negative numbers in an array.
+ * @param {number[]} input - An array of integers.
+ * @returns {number[]} - An array containing the count of positive numbers and the sum of negative numbers.
+ */
+function countPositivesSumNegatives(input) {
+    let positiveNums = 0;
+    let negativeNums = 0;
+  
+    if (input === null || input.length === 0) { 
+      return [];
+    } else { 
+      input.forEach((num) => num > 0 ? positiveNums++ : negativeNums += num);
+    }
+  
+    return [positiveNums, negativeNums];
+  }
+  
