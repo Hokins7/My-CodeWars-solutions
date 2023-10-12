@@ -28,3 +28,4 @@ console.log(sum1); // This will log '55' to the console.
 const numbers2 = [7, 3, 9, 6, 5];
 const sum2 = sumSquares(numbers2);
 console.log(sum2); // This will log '200' to the console.
+s
