@@ -20,4 +20,4 @@ To get the Nth even number, call the `nthEven` function and provide the desired 
 const n = 3;
 const nthEvenNumber = nthEven(n);
 console.log(nthEvenNumber);
-// This will log 4 to the console, which is the 3rd even number.
+// This will log 4 to the console, which is the 3rd even number
