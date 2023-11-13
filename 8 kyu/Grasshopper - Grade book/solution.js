@@ -4,7 +4,7 @@
  * @param {number} s3 - The third score.
  * @returns {string} - The letter grade associated with the average of the three scores.
  */
-function getGrade(s1, s2, s3) {
+function getGrade(s1, s2, s3 ) {
     // Calculate the average of the three scores.
     let average = (s1 + s2 + s3) / 3;
     
