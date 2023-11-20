@@ -9,7 +9,7 @@ Welcome to my CodeWars Solutions Repository! 🚀
 - Gain insights into my coding style and approach to problem-solving.
 - Learn from well-commented and organized solutions to a wide range of coding challenges.
 - Discover efficient algorithms, clever shortcuts, and best practices.
-- See how I continually strive to improve my coding skills and tackle new problems
+- See how I continually strive to improve my coding skills and tackle new problems.
 
 ## Explore My Other Work
 
